@@ -56,13 +56,13 @@ Click here to view :
 3. Click on create table.
 4. Copy ARN url and keep aside for later.
 5. Give Lambda permission to save and retrieve results in DB.
-	i. Go to the lambda function created earlier.
-	ii.Under configurations, go to permissions section.
-	iii. Click on execution role name url.
-	iv. Go to trust reltionships section.
-	v. Click on add permissions, create inline policies.
-	vi. Select JSON editor and add policy like this [Execution Role Policy JSON.txt](https://github.com/aishup7/Serverless_Web_Application-AWS/files/12777532/Execution.Role.Policy.JSON.txt) [replace your db arn saved earlier!]
-	vii. Review policy - provide name, create policy.
+	1. Go to the lambda function created earlier.
+	2.Under configurations, go to permissions section.
+	3. Click on execution role name url.
+	4. Go to trust reltionships section.
+	5. Click on add permissions, create inline policies.
+	6. Select JSON editor and add policy like this [Execution Role Policy JSON.txt](https://github.com/aishup7/Serverless_Web_Application-AWS/files/12777532/Execution.Role.Policy.JSON.txt) [replace your db arn saved earlier!]
+	7. Review policy - provide name, create policy.
 
 # STEP 5 : Update Lambda function to use the DB to store and retrive results.
 1. Open AWS console and navigate to AWS Lambda console.
@@ -73,9 +73,9 @@ Click here to view :
 
 # STEP 6 : Invoke API gateway from web page.
 1. Open AWS console and navigate to AWS Lambda console.
-1. Update the simple web page like this [index NW.txt](https://github.com/aishup7/Serverless_Web_Application-AWS/files/12777547/index.NW.txt) [replace your Api gateway url saved earlier!]
-2. Compress this text file into a zip file.
-i. Select drag & drop method and drop the zip file.
+2. Update the simple web page like this [index NW.txt](https://github.com/aishup7/Serverless_Web_Application-AWS/files/12777547/index.NW.txt) [replace your Api gateway url saved earlier!]
+3. Compress this text file into a zip file.
+	1. Select drag & drop method and drop the zip file.
 4. Click on domain url to view. 
 
 # References :
