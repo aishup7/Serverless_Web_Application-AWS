@@ -16,21 +16,21 @@ Click here to view :
 2. Compress this text file into a zip file.
 2. Open AWS console and navigate to AWS Amplify console.
 3. Click on New app.
-	i. Click on host a app.
-	ii. Select deploy w/o git provider; continue.
-	iii. Give a app name.
-	iv. Give a environment name.
-	v. Select drag & drop method and drop the zip file.
-	vi. Save and deploy.
+	1. Click on host a app.
+	2. Select deploy w/o git provider; continue.
+	3. Give a app name.
+	4. Give a environment name.
+	5. Select drag & drop method and drop the zip file.
+	6. Save and deploy.
 4. Click on domain url to view.
 
 # STEP 2 : Create a Lambda function that triggers with AWS Lambda.
 1. Open AWS console and navigate to AWS Lambda console.
 2. Click on create function.
-i. Click on Author from scratch.
-ii. Give a function name.
-iii. Choose runtime language like python 3.9 in this case.
-iv. Click on create function.
+	1. Click on Author from scratch.
+	2. Give a function name.
+	3. Choose runtime language like python 3.9 in this case.
+	4. Click on create function.
 3. Go to code source under function created.
 4. Update the default code with the python lambda function code like this [PowerFunction - Lambda-ORIGINAL.txt](https://github.com/aishup7/Serverless_Web_Application-AWS/files/12777535/PowerOfMathFunction.-.Lambda-ORIGINAL.txt)
 5. Click deploy.
@@ -56,13 +56,13 @@ iv. Click on create function.
 3. Click on create table.
 4. Copy ARN url and keep aside for later.
 5. Give Lambda permission to save and retrieve results in DB.
-i. Go to the lambda function created earlier.
-ii.Under configurations, go to permissions section.
-iii. Click on execution role name url.
-iv. Go to trust reltionships section.
-v. Click on add permissions, create inline policies.
-vi. Select JSON editor and add policy like this [Execution Role Policy JSON.txt](https://github.com/aishup7/Serverless_Web_Application-AWS/files/12777532/Execution.Role.Policy.JSON.txt) [replace your db arn saved earlier!]
-vii. Review policy - provide name, create policy.
+	i. Go to the lambda function created earlier.
+	ii.Under configurations, go to permissions section.
+	iii. Click on execution role name url.
+	iv. Go to trust reltionships section.
+	v. Click on add permissions, create inline policies.
+	vi. Select JSON editor and add policy like this [Execution Role Policy JSON.txt](https://github.com/aishup7/Serverless_Web_Application-AWS/files/12777532/Execution.Role.Policy.JSON.txt) [replace your db arn saved earlier!]
+	vii. Review policy - provide name, create policy.
 
 # STEP 5 : Update Lambda function to use the DB to store and retrive results.
 1. Open AWS console and navigate to AWS Lambda console.
