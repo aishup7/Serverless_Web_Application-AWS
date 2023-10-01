@@ -80,7 +80,7 @@ Click here to view :
 
 # References :
 [A similar Project Building by AWS](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
-[Tiny Tech Tutorials : Video Tutorial of the same](https://www.youtube.com/watch?v=7m_q1ldzw0U)
+<br>[Tiny Tech Tutorials : Video Tutorial of the same](https://www.youtube.com/watch?v=7m_q1ldzw0U)
 
 
 
